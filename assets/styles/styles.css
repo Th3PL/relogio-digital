@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+ :root{
+    --cor-principal: #FFCC00;
+    --cor-secundaria: #203E5F;
+
+}
 
 *{
     margin: 0;
@@ -8,7 +13,7 @@
 
 body{
     height: 100vh;
-    background: linear-gradient(120deg, #ffe53bd8, #ff2525da);
+    background: linear-gradient(120deg, var(--cor-principal), var(--cor-secundaria));
     display: flex;
     align-items: center;
     justify-content: center;
